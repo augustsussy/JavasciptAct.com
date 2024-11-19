@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Activity</title>
+    <style>
+        span {
+            color: red;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.write("Displaying Numbers: ");
+        document.write("<br><br>");
+
+        var number = 1;
+
+        while (number <= 5) {
+            if (number === 3) {
+                // Change the value of Number Value 3
+                document.write('<span>Number Value: 3</span><br>');
+            } else {
+                document.write("Number Value: " + number + "<br>");
+            }
+            number++;
+        }
+    </script>
+</body>
+</html>
